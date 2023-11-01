@@ -184,16 +184,16 @@ class Instructeur extends BaseController
 
        
 
-        header("Location: /instructeur/overzichtvoertuigen/$instructeurId");
-    }
+    //     header("Location: /instructeur/overzichtvoertuigen/$instructeurId");
+    // }
 
-    function verwijder($instructeurId, $voertuigId)
-    {
-        // $this->instructeurModel->verwijderVoertuig($voertuigId);
+    // function verwijder($instructeurId, $voertuigId)
+    // {
+    //     // $this->instructeurModel->verwijderVoertuig($voertuigId);
 
       
 
-        // header("Location: /instructeur/overzichtBeschikbareVoertuigen/$instructeurId");
+    //     // header("Location: /instructeur/overzichtBeschikbareVoertuigen/$instructeurId");
     }
 
     public function overzichtAlleVoertuigen()
