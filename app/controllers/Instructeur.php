@@ -200,10 +200,10 @@ class Instructeur extends BaseController
     {
          
 
-        $result = $this->instructeurModel->getAlleVoertuigen();
+        // $result = $this->instructeurModel->getAlleVoertuigen();
 
 
-        $tableRows = "";
+        // $tableRows = "";
 
    
             foreach ($result as $voertuig) {
