@@ -206,7 +206,7 @@ class Instructeur extends BaseController
         // $tableRows = "";
 
    
-            foreach ($result as $voertuig) {
+            // foreach ($result as $voertuig) {
 
              
                 $tableRows .= "<tr>
