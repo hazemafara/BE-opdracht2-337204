@@ -196,7 +196,7 @@ class Instructeur extends BaseController
     //     // header("Location: /instructeur/overzichtBeschikbareVoertuigen/$instructeurId");
     }
 
-    public function overzichtAlleVoertuigen()
+    // public function overzichtAlleVoertuigen()
     {
          
 
