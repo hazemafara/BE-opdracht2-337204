@@ -210,11 +210,11 @@ class Instructeur extends BaseController
 
              
                 $tableRows .= "<tr>
-                                    <td>$voertuig->TypeVoertuig</td>
-                                    <td>$voertuig->Type</td>
-                                    <td>$voertuig->Kenteken</td>
-                                    <td>$voertuig->Bouwjaar</td>
-                                    <td>$voertuig->Brandstof</td>
+                                    // <td>$voertuig->TypeVoertuig</td>
+                                    // <td>$voertuig->Type</td>
+                                    // <td>$voertuig->Kenteken</td>
+                                    // <td>$voertuig->Bouwjaar</td>
+                                    // <td>$voertuig->Brandstof</td>
                                     <td>$voertuig->RijbewijsCategorie</td>
                                     <td>$voertuig->InstructeurNaam</td>
                                     <td><a href='/instructeur/wijzig/$voertuig->Id'>Wijzigen</a></td>
