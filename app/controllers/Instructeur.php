@@ -193,7 +193,7 @@ class Instructeur extends BaseController
 
       
 
-        header("Location: /instructeur/overzichtBeschikbareVoertuigen/$instructeurId");
+        // header("Location: /instructeur/overzichtBeschikbareVoertuigen/$instructeurId");
     }
 
     public function overzichtAlleVoertuigen()
@@ -209,7 +209,6 @@ class Instructeur extends BaseController
             foreach ($result as $voertuig) {
 
              
-
                 $tableRows .= "<tr>
                                     <td>$voertuig->TypeVoertuig</td>
                                     <td>$voertuig->Type</td>
