@@ -189,7 +189,7 @@ class Instructeur extends BaseController
 
     function verwijder($instructeurId, $voertuigId)
     {
-        $this->instructeurModel->verwijderVoertuig($voertuigId);
+        // $this->instructeurModel->verwijderVoertuig($voertuigId);
 
       
 
